@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import static java.util.stream.Collectors.toMap;
+import org.springframework.util.StopWatch;
 
 /**
  * Frequency analysis Inspired by
@@ -19,7 +20,9 @@ import static java.util.stream.Collectors.toMap;
 public class Main {
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
-        String fileName = "/Users/kasper/GITHUB/ufo/letterfrequencies/src/main/resources/FoundationSeries.txt";
+        StopWatch stopwatch = new StopWatch();
+        stopwatch.start();
+        String fileName = "C:\\Users\\Jonas\\Documents\\GitHub\\Code-Performance_letter-frequencies\\src\\main\\resources\\FoundationSeries.txt";
         Reader reader = new FileReader(fileName);
         Map<Integer, Long> freq = new HashMap<>();
         tallyChars(reader, freq);
