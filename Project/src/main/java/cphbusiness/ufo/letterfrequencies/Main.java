@@ -26,7 +26,7 @@ import java.util.concurrent.CompletableFuture;
 
 public class Main {
     
-private static String fileName = "C:\\Users\\Jonas\\Documents\\GitHub\\Code-Performance_letter-frequencies\\src\\main\\resources\\FoundationSeries.txt";
+private static String fileName = "C:\\Users\\Jonas\\Documents\\GitHub\\Code-Performance_letter-frequencies\\Project\\src\\main\\resources\\FoundationSeries.txt";
     public static void main(String[] args) throws FileNotFoundException, IOException {
         Instant starts = Instant.now();
          long startTime = System.currentTimeMillis();
