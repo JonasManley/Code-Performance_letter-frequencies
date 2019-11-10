@@ -15,3 +15,14 @@ Hand-in:
 * A hypothesis of what is causing the problem, and a changed program which is improved to solve the problem.
 * Documentation of the new performance, again including documentation that the measurements are free of errors.
 * Notice: there might be more than one optimization needed to achieve optimal performance.
+
+
+<h2>Handed in</h2>
+
+1. Clone project to your computer
+2. Open the word .doc ("_Perfromance Assignment dokumentation_") and read it. 
+3. Open up the project file in a Java IDE of you choosing 
+4. Now to get the location of you file "" on your computer. open up the folder, Go "src --> resources --> resources. No copy paste the path including the filename and .txt at the end e.g. 
+**My path is**: _C:\Users\Jonas\Documents\GitHub\Code-Performance_letter-frequencies\Project\src\main\resources\FoundationSeries.txt_
+5. Paste the path into the main method inside of the project.
+6. Run any of the 3 methods and compare your result the the excel ark ("_excel of performance Pre & after modification_") with this repo, to see a comparason between how much hardware effect the result. 
